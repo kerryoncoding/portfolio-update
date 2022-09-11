@@ -47,7 +47,7 @@ h1 {
 .hero h2 {
     font-family: var(--primary-font);
     font-size: 32px;
-    padding-top: 150px;
+    padding-top: 100px;
 }
 
 .hero h3 {
@@ -137,9 +137,6 @@ p {
     padding: 0px 5px;
 }
 
-.about-blurb a:hover {
-    text-decoration: underline;
-}
 
 .skills {
     max-width: 900px;
@@ -184,7 +181,7 @@ p {
     text-align: center;
     background-color: var(--secondary-color);
     padding-top: 30px;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
 }
 
 .pmp {
@@ -199,14 +196,17 @@ p {
     padding: 50px 30px;
 }
 
-.project-link {
+/* .project-box:hover {
+    border: 2px solid var(--primary-color);
+} */
+
+.project-link, .open-source a {
     text-decoration: none;
     color: var(--link-color);    
 }
 
-.project-link:hover {
-    text-decoration: underline;
-    color: #22313F;   
+.project-link:hover, .open-source a:hover, .about-blurb a:hover {
+    text-decoration: underline; 
 }
 
 .social-link {
@@ -237,10 +237,6 @@ p {
     margin: 0px;
     padding-top: 10px;
     padding-bottom: 20px;
-}
-
-.open-source a {
-    color: var(--link-color);
 }
 
 
