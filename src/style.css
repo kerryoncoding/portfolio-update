@@ -148,8 +148,26 @@ p {
     font-size: 20px;    
 }
 
+  .pictureswap {
+      position: relative;
+      max-width: 100%;
+  }
 
+  .pictureswap img.image-hover {
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      object-fit: contain;
+      opacity: 0;
+      transition: opacity .2s ease-in-out
+  }
 
+  .pictureswap:hover img.image-hover {
+      opacity: 1;
+      border: 1px solid var(--primary-color);
+  }
 
 .primary-btn {
     font-family: var(--primary-font);
