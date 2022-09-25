@@ -182,6 +182,14 @@ p {
     padding-bottom: 50px;
 }
 
+.engineer {
+    margin: 0px;
+    text-align: center;
+    background-color: var(--secondary-color);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 .project-box {
     background-color: var(--secondary-color);
     border-radius: 4px;
