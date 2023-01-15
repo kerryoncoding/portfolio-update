@@ -64,7 +64,15 @@ h1 {
     color: white;
     text-decoration: none;
 }
+.products { 
+text-align: left;
+padding-bottom: 20px;
+padding-top: 20px;
+}
 
+.blue {
+    background-color: var(--secondary-color);
+}
 .hero .get-started-btn {
     padding-bottom: 150px;
 }
