@@ -227,6 +227,20 @@ p {
     padding-bottom: 30px;
 }
 
+.consumer {
+    margin: 0px;
+    text-align: center;
+    background-color: #ffffff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.medical {
+
+    background-color: var(--secondary-color);
+}
+
+
 .project-box {
     background-color: var(--secondary-color);
     border-radius: 4px;
