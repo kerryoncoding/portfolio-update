@@ -143,12 +143,16 @@ p {
     max-width: 900px;
 }
 
+.me-skills {
+    max-width:1200px;
+}
+
 .skill-list {
     text-align: left;
     padding-bottom: 50px;
 }
 
-.skills ul {
+.skills ul, .me-skills ul {
     margin-left: 80px;
     list-style: none;
     line-height: 40px;
@@ -306,8 +310,10 @@ p {
         text-align: center;
     }
 
-    .skills .skill-list ul {
-        margin: 0px;
+
+
+    .skills ul,  .me-skills ul {
+        margin-left: 0px;
         list-style: none;
         line-height: 40px;
         font-family: var(--primary-font);
