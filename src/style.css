@@ -239,6 +239,13 @@ p {
     background-color: var(--secondary-color);
 }
 
+.grow {
+    width: 200px; 
+}
+
+.grow:hover {
+    opacity: 80%;
+}
 
 .project-box {
     background-color: var(--secondary-color);
