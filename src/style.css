@@ -144,6 +144,7 @@ p {
 }
 
 .me-skills {
+    padding-top: 20px;
     max-width:1200px;
     background-color: #E4F1FE;
 }
