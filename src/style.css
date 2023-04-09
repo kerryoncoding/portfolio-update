@@ -138,6 +138,9 @@ p {
     text-align: left;
 }
 
+img .rounded-size {
+    width: 90%;
+}
 
 .skills {
     max-width: 900px;
